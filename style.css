@@ -1,15 +1,110 @@
 body {
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(255, 217, 0);
+    margin: 0;
+    max-width: 100%;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    
 }
 
-
-header, footer{
+header{
     background-color: black;
-    margin: -10px;
-    width: 100vw;   
     color: white;
-    display: block;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
+        
 }
+
+.title, .learn-invite {
+    margin-left: 30px;
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    
+}
+
+#celebrate {
+    background-color: black;
+    color:rgb(255, 217, 0);
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 10px;
+    
+    font-size: 20px;
+    
+}
+
+#years {
+    font-size: 64px;
+    font-weight: 900;
+    margin: 0;
+        
+}
+#libraries {
+    font-size: 54px;
+    margin: 0;
+}
+#counting{
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(58, 58, 58);
+}
+
+.learn-invite{
+    text-align: center;
+    max-width: 60%;
+    align-items: center;
+}
+
+.list-head{
+    align-self: center;
+    padding: 20px;
+}
+
+.list-head li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.list-foot {
+    margin-right: 40px;
+}
+
+.list-foot li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+.logo-head {
+    height: 65px;
+    align-self: center;
+    margin: 30px 0 30px 40px;
+}
+
+.logo-foot {
+    height: 35px;
+    align-self: center;
+    margin: 10px 0 10px 40px;
+}
+
+.copyright {
+    color: gray;
+    align-self: center;
+    font-size: 10px;
+    margin-right: auto;
+    padding-left: 10px;
+    
+}
+
+
 
